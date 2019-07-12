@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
   
   main {
@@ -34,3 +35,26 @@ body {
       height: 100%;
   }
   
+/* USE IF CLASS BUTTON
+  .button {
+  background-color: rgb(114, 76, 175);
+  border: 1px solid rgb(240, 13, 172);
+  border-radius: 10px;
+  color: white;
+  } */
+
+  #btnRandApod {
+    background-color: rgb(25, 55, 138);
+    border: 1px solid rgb(120, 158, 214);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 30px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+    
+  #btnRandApod:hover {
+    background-color: #71129c;
+  }
